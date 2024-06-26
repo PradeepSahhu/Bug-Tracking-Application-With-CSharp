@@ -70,7 +70,7 @@ namespace Bug_Tracking_Application
             {
                 BugID = int.Parse(textBox_BugID.Text.Trim());
             }
-            int ProjectTitle = int.Parse(comboBoxProject.SelectedValue.ToString());
+             int ProjectTitle = int.Parse(comboBoxProject.SelectedValue.ToString());
             string BugTitle = textBox_bugtitle.Text.Trim();
             string BugDescription = textBox_bugdescription.Text.Trim();
             string SubmitCode = richTextBox_submitCode.Text.Trim();
@@ -121,7 +121,7 @@ namespace Bug_Tracking_Application
                     comboBox_status.Text = "";
                     dateTimePicker_reportdate.Text = "";
                     comboBox_severity.Text = "";
-                    label_path.Text = "[Image Path]";
+                    label_path.Text = "[Image Path]"; 
                 }
                 else
                 {

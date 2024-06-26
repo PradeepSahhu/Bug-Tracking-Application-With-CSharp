@@ -132,11 +132,12 @@ namespace Bug_Tracking_Application
 
             //Step 1: Getting Values from Clicked rows
             string ProjectID = dataGridView_Projects.Rows[index].Cells[0].Value.ToString();
-            string ProjectDescription = dataGridView_Projects.Rows[index].Cells[1].Value.ToString();
-            string StartDate = dataGridView_Projects.Rows[index].Cells[2].Value.ToString();
-            string EndDate = dataGridView_Projects.Rows[index].Cells[3].Value.ToString();
+            string ProjectTitle = dataGridView_Projects.Rows[index].Cells[1].Value.ToString();
+            string ProjectDescription = dataGridView_Projects.Rows[index].Cells[2].Value.ToString();
+            string StartDate = dataGridView_Projects.Rows[index].Cells[3].Value.ToString();
+            string EndDate = dataGridView_Projects.Rows[index].Cells[4].Value.ToString();
             string ProjectUrl = dataGridView_Projects.Rows[index].Cells[5].Value.ToString();
-            string ProjectTitle = dataGridView_Projects.Rows[index].Cells[6].Value.ToString();
+           
 
             //Step 2: Insert these values to textbox of the form
             textBox_ProjectID.Text = ProjectID;
